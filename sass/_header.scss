@@ -1,0 +1,19 @@
+@import "variables";
+
+header{
+    background-color: $bg-color;
+    nav{
+        padding: $tamaño;
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    &:hover{
+                        text-decoration: solid
+
+                    }
+                }
+            }
+        };
+    }
+}
