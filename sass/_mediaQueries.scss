@@ -1,15 +1,3 @@
-/*comentario*/
-header {
-  background-color: grey; }
-  header nav {
-    padding: 30px; }
-    header nav ul li {
-      list-style-type: none; }
-      header nav ul li a:hover {
-        text-decoration: solid; }
-
-        
- 
 
 /*TABLETS*/
 
@@ -87,40 +75,3 @@ p{
 
 
 
-
-
-
-/*CONTACTO*/
-div input:hover{
-background-color: rgb(156, 117, 192);
-transform: scale(1,1);
-transition: 1s;
-border-style: outset;
-}
-
-textarea:hover{
-background-color: rgb(156, 117, 192);
-transform: scale(1,1);
-transition: 1s;
-border-style: outset;
-
-}
-
-/*TABLETS*/
-
-@media (min-width: 480px) and (max-width:1024px){
-
-    h1{
-        font-size: 40px;
-        color: rgb(62, 78, 112);
-    }
-}
-
-/*Smartphone*/
-@media (max-width: 478px){
-
-.navbar{
-    display: flex;
-    z-index: 1;
-}
-}
