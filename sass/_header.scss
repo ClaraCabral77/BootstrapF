@@ -9,14 +9,17 @@
 .menuMovil{
     display: none;
 }
-img:hover{
+img.btn:hover{
 transform: scale(1.5, 1.5);
 transition: 3s;
+
 }
+
+
 
 .text-pop-up-top:hover{
     transition: 2s;
-    background-color: blueviolet;
+    background-color: rgba(128, 128, 128, 0.719);
     padding: 5px;
     border-radius: 50px 20px;
           }

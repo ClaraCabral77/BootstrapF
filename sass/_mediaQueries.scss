@@ -1,12 +1,17 @@
-
+@import "variables";
 /*TABLETS*/
 
 @media (min-width: 480px) and (max-width:1024px){
 
     h1{
+
         font-size: 40px;
-        color: rgb(62, 78, 112);
+        color: black;
     }
+  img.btn{
+        display: none;
+    }
+    
 }
 
 /*Smartphone*/
@@ -22,13 +27,13 @@ h1{
 
 .lead{  
     padding: 10px 20px;
-    font-family: "rufina";
+    font-family: "Lancelot";
     font-size: 20px;
     color:aliceblue;
     background-color: rgba(0, 0, 0, 0.596);
 }
 main{
-    background-image: url("Portada2.jpg");
+    background-image: url("imagenes/Portada.jpg");
 }
 .navbar{
     display: flex;
@@ -39,12 +44,12 @@ main{
     display: none;
 }
 a{
-    font-size: 20px;
-    font-family: "rufina";
+    font-size: 17px;
+    font-family: "Lancelot";
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    color: antiquewhite;
+    color: white;
     margin-bottom: 5px;
 
 }
@@ -52,7 +57,7 @@ a{
 a:hover{
     color:white;
     transition: 2s;
-    background-color: blueviolet;
+    background-color: rgba(128, 128, 128, 0.699);
     padding: 10px;
     border-radius: 50px 20px;
           }
@@ -70,8 +75,28 @@ p{
     border-radius: 20px;
 }
 
-
 }
+
+/*DEPARTAMENTOS*/
+
+    /*TABLETS*/
+    
+    @media (min-width: 480px) and (max-width:1024px){
+    
+        h1{
+            font-size: 40px;
+            color: black;
+        }
+    }
+    
+    /*Smartphone*/
+    @media (max-width: 478px){
+    
+    .navbar{
+        display: flex;
+        z-index: 1;
+    }
+    }
 
 
 

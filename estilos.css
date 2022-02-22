@@ -1,24 +1,23 @@
+/*CONTACTO*/
+div input:hover {
+  background-color: greenyellow;
+  transform: scale(1, 1);
+  transition: 1s;
+  border-style: outset; }
 
-/*TABLETS*/
-@media (min-width: 480px) and (max-width: 1024px) {
-  h1 {
-    font-size: 40px;
-    color: #3e4e70; } }
+textarea:hover {
+  background-color: greenyellow;
+  transform: scale(1, 1);
+  transition: 1s;
+  border-style: outset; }
 
-/*Smartphone*/
-@media (max-width: 478px) {
-  .navbar {
-    display: flex;
-    z-index: 1; } }
+@font-face {
+  font-family: "Lancelot";
+  src: url(../Lancelot-Regular.ttf); }
 
-.text-pop-up-top, .text-pop-up-top-nuevo {
-  transition: 2s;
-  background-color: rgba(128, 128, 128, 0.322);
-  padding: 5px;
-  border-radius: 50px 20px; }
-
-.text-pop-up-top-nuevo {
-  border-color: aqua; }
+@font-face {
+  font-family: "Lancelot";
+  src: url(../Lancelot-Regular.ttf); }
 
 /*INICIO*/
 .navbar {
@@ -27,19 +26,17 @@
 .menuMovil {
   display: none; }
 
- header img:hover {
+img.btn:hover {
   transform: scale(1.5, 1.5);
   transition: 3s; }
 
-
-
-.text-pop-up-top:hover, .text-pop-up-top-nuevo:hover {
+.text-pop-up-top:hover {
   transition: 2s;
-  background-color: blueviolet;
+  background-color: rgba(128, 128, 128, 0.719);
   padding: 5px;
   border-radius: 50px 20px; }
 
-.text-pop-up-top, .text-pop-up-top-nuevo {
+.text-pop-up-top {
   -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
@@ -71,72 +68,69 @@
     transform-origin: 50% 50%;
     text-shadow: 0 5px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3); } }
 
+@font-face {
+  font-family: "Lancelot";
+  src: url(../Lancelot-Regular.ttf); }
 
-
-    /*CONTACTO*/
-div input:hover {
-    background-color: #9c75c0;
-    transform: scale(1, 1);
-    transition: 1s;
-    border-style: outset; }
-  
-  textarea:hover {
-    background-color: #9c75c0;
-    transform: scale(1, 1);
-    transition: 1s;
-    border-style: outset; }
-  
 /*TABLETS*/
 @media (min-width: 480px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
-    color: #3e4e70; } }
+    color: black; }
+  img.btn {
+    display: none; } }
 
 /*Smartphone*/
 @media (max-width: 478px) {
-  .text-pop-up-top, .text-pop-up-top-nuevo {
+  .text-pop-up-top {
     display: none; }
   h1 {
     color: black; }
   .lead {
     padding: 10px 20px;
-    font-family: "rufina";
+    font-family: "Lancelot";
     font-size: 20px;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.596); }
   main {
-    background-image: url("imagenes/Portada.jpg");
-    background-repeat: no-repeat;
- }
+    background-image: url("imagenes/Portada.jpg"); }
   .navbar {
     display: flex;
     z-index: 1; }
   .px-3 {
     display: none; }
   a {
-    font-size: 20px;
-    font-family: "rufina";
+    font-size: 17px;
+    font-family: "Lancelot";
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    color: antiquewhite;
+    color: white;
     margin-bottom: 5px; }
   a:hover {
     color: white;
     transition: 2s;
-    background-color: blueviolet;
+    background-color: rgba(128, 128, 128, 0.699);
     padding: 10px;
     border-radius: 50px 20px; }
   #exampleFormControlTextarea1 {
-    margin-top: 20px; }
+    margin-top: 40px; }
   .mb-3 {
-    width: 350px;
-    margin-top: -120px; }
+    margin-top: 105px; }
   p {
     background-color: rgba(250, 235, 215, 0.705);
     padding: 20px;
     border-radius: 20px; } }
 
+/*DEPARTAMENTOS*/
+/*TABLETS*/
+@media (min-width: 480px) and (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    color: black; } }
 
- 
-    
+/*Smartphone*/
+@media (max-width: 478px) {
+  .navbar {
+    display: flex;
+    z-index: 1; } }
