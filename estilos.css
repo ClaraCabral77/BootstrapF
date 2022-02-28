@@ -158,9 +158,13 @@ div input:hover{
   border-style: outset;
   }
   
-label.form-label{
+div label.form-label{
   color: #fafafa;
   text-shadow: 2px 2px 4px rgb(206, 213, 221);
+}
+#exampleFormControlInput1{
+  color: red;
+  background-color: aqua;
 }
   #cons{
     margin-top: 48px;
