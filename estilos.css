@@ -1,23 +1,42 @@
-/*CONTACTO*/
-div input:hover {
-  background-color: greenyellow;
-  transform: scale(1, 1);
-  transition: 1s;
-  border-style: outset; }
-
-textarea:hover {
-  background-color: greenyellow;
-  transform: scale(1, 1);
-  transition: 1s;
-  border-style: outset; }
-
+/*Estilos generales*/
 @font-face {
-  font-family: "Lancelot";
-  src: url(../Lancelot-Regular.ttf); }
+  font-family: "averox";
+  src: url(averox.ttf);
+  
+}
+@font-face{
+font-family: "rule";
+src: url(Raleway-VariableFont_wght.ttf)
+}
 
-@font-face {
-  font-family: "Lancelot";
-  src: url(../Lancelot-Regular.ttf); }
+
+main{
+  background-image: url(imagenes/fondo3.jpg);
+  opacity: 1;
+  background-repeat:no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  
+}
+p{
+  background-color: rgba(245, 245, 245, 0.705);
+  color: rgb(9, 10, 10);
+ border-radius: 50px 20px ;
+ padding: 20px 20px;
+}
+h1{
+  
+  font-family: "averox";
+ text-shadow: 2px 2px 4px #fafafa;
+  margin-bottom: 20px;
+}
+h2{
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px #fafafa;
+}
+p{
+  line-height: 40px;
+}
 
 /*INICIO*/
 .navbar {
@@ -26,13 +45,14 @@ textarea:hover {
 .menuMovil {
   display: none; }
 
-img.btn:hover {
-  transform: scale(1.5, 1.5);
-  transition: 3s; }
+  img.btn:hover{
+    transform: scale(1.5, 1.5);
+    transition: 3s;
+    }
 
 .text-pop-up-top:hover {
   transition: 2s;
-  background-color: rgba(128, 128, 128, 0.719);
+  background-color: rgba(128, 128, 128, 0.699) ;
   padding: 5px;
   border-radius: 50px 20px; }
 
@@ -68,17 +88,20 @@ img.btn:hover {
     transform-origin: 50% 50%;
     text-shadow: 0 5px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3); } }
 
-@font-face {
-  font-family: "Lancelot";
-  src: url(../Lancelot-Regular.ttf); }
 
 /*TABLETS*/
 @media (min-width: 480px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
-    color: black; }
-  img.btn {
-    display: none; } }
+    color: rgba(51, 44, 44, 0.692); } 
+   
+    img.btn{
+      display: none;
+    }
+  
+  }
+
+    
 
 /*Smartphone*/
 @media (max-width: 478px) {
@@ -88,7 +111,7 @@ img.btn:hover {
     color: black; }
   .lead {
     padding: 10px 20px;
-    font-family: "Lancelot";
+    font-family: "rule";
     font-size: 20px;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.596); }
@@ -101,7 +124,7 @@ img.btn:hover {
     display: none; }
   a {
     font-size: 17px;
-    font-family: "Lancelot";
+    font-family: "";
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -110,7 +133,7 @@ img.btn:hover {
   a:hover {
     color: white;
     transition: 2s;
-    background-color: rgba(128, 128, 128, 0.699);
+    background-color: rgba(128, 128, 128, 0.623);
     padding: 10px;
     border-radius: 50px 20px; }
   #exampleFormControlTextarea1 {
@@ -120,17 +143,49 @@ img.btn:hover {
   p {
     background-color: rgba(250, 235, 215, 0.705);
     padding: 20px;
-    border-radius: 20px; } }
+    border-radius: 20px; } 
+  
+    
 
-/*DEPARTAMENTOS*/
+
+
+
+/*CONTACTO*/
+div input:hover{
+  background-color: rgba(128, 128, 128, 0.582);
+  transform: scale(1,1);
+  transition: 1s;
+  border-style: outset;
+  }
+  
+label.form-label{
+  color: #fafafa;
+  text-shadow: 2px 2px 4px rgb(206, 213, 221);
+}
+  #cons{
+    margin-top: 48px;
+  }
+  textarea:hover{
+   background-color: rgba(128, 128, 128, 0.596);
+  transform: scale(1,1);
+  transition: 1s;
+  border-style: outset;
+  
+  }
+
 /*TABLETS*/
 @media (min-width: 480px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
-    color: black; } }
+    color: rgb(51, 48, 48); } 
+
+
+  }   
 
 /*Smartphone*/
 @media (max-width: 478px) {
   .navbar {
     display: flex;
-    z-index: 1; } }
+    z-index: 1; } 
+}
+}
