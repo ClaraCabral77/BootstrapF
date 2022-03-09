@@ -16,6 +16,10 @@ main{
   background-position-x: center;
   background-size: cover;
 }
+.px-4{
+  margin-left: 30px;
+
+}
 
 p{
   background-color: rgba(245, 245, 245, 0.705);
